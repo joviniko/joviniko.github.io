@@ -5,3 +5,14 @@ plugins:
 title: joviniko gh page
 description: personal projects and ideas
 show_downloads: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
